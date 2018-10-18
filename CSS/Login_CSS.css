@@ -4,6 +4,7 @@ body{
 
 h1{
   color: white;
+  font-family: cursive;
 }
 
 p{
@@ -12,14 +13,13 @@ p{
 
 .foto1 {
   height: 277px;
-  /*padding: 10px;
-  /*margin: 10px;
-  float: left;*/
   width: 277px;
 }
 
-.nombre{
+input{
   font-family: cursive;
+  width: 200px;
+  border-radius: 5%;
 }
 
 .btn_login{
@@ -32,5 +32,5 @@ p{
   display: inline-block;
   font-size: 16px;
   height: 50px;
-  width: 100px;
+  width: 200px;
 }
