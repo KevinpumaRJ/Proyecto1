@@ -1,3 +1,33 @@
 body {
   background-color: #990000;
 }
+
+h1{
+  color: white;
+  font-family: cursive;
+}
+
+p{
+  font-family: cursive;
+  color: white;
+}
+
+input{
+  font-family: cursive;
+  width: 200px;
+  border-radius: 5%;
+}
+
+.btn_Registro{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: 50px;
+  width: 200px;
+  float: right: 200px;
+}
