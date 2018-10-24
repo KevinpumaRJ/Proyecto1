@@ -23,8 +23,9 @@ table {
     justify-content: space-between;
     left: 400px;
     align-content: space-around;
-    top: 350px;
+    top: 500px;
 }
+
 
 td, th {
     border: 1px solid #dddddd;
@@ -61,4 +62,35 @@ tr {
 .menu ul li a:hover{
   background-color: #4CAF50;
 
+}
+
+p{
+  font-family: cursive;
+  color: white;
+}
+
+.rides{
+  font-size: 70px;
+  position: absolute;
+  justify-content: space-between;
+  left: 400px;
+  align-content: space-between;
+  top: 270px;
+}
+
+.nameUser{
+  position: absolute;
+  justify-content: space-between;
+  left: 799px;
+  align-content: space-between;
+  top: 420px;
+}
+
+.user{
+  border: 2px solid black;
+  position: absolute;
+  justify-content: space-between;
+  left: 777px;
+  align-content: space-between;
+  top: 290px;
 }
