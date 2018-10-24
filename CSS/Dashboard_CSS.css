@@ -20,7 +20,10 @@ table {
     width: 50%;
     color: white;
     position: absolute;
-
+    justify-content: space-between;
+    left: 400px;
+    align-content: space-around;
+    top: 350px;
 }
 
 td, th {
@@ -31,4 +34,31 @@ td, th {
 
 tr {
     background-color: #666;
+}
+
+.menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li{
+  display: inline-block;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: cursive;
+  display: block;
+  padding: 10px 100px;
+}
+
+.menu{
+  background-color: black;
+}
+
+.menu ul li a:hover{
+  background-color: #4CAF50;
+
 }
