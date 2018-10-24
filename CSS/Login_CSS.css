@@ -20,7 +20,11 @@ p{
   color: white;
 }
 
-
+.foto1{
+  width: 200px;
+  height: 200px;
+  float: left;
+}
 
 input{
   font-family: cursive;
@@ -44,4 +48,11 @@ input{
 .crearCuenta{
     font-size: 16px;
     font-family: serif;
+}
+
+.contenedor{
+  position: absolute;
+  justify-content: space-between;
+  right: -20px;
+  left: 10px;
 }
