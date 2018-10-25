@@ -1,0 +1,107 @@
+header{
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+body{
+  background-color: #990000;
+}
+
+.foto1{
+  float: left;
+}
+
+.menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li{
+  display: inline-block;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: cursive;
+  display: block;
+  padding: 10px 100px;
+}
+
+.menu{
+  background-color: black;
+}
+
+.menu ul li a:hover{
+  background-color: #4CAF50;
+
+}
+
+
+.p_fin{
+  position: absolute;
+  justify-content: space-between;
+  left:870px;
+  align-content: space-between;
+  top: 100px;
+}
+
+.fin{
+  position: absolute;
+  justify-content: space-between;
+  right:380px;
+  align-content: space-between;
+  top: 140px;
+}
+
+.contenedor{
+  position: absolute;
+  justify-content: space-between;
+  right: -20px;
+  left: 10px;
+}
+
+.descripcion{
+  width: 500px;
+  height: 70px;
+}
+
+.radio{
+  position: absolute;
+  justify-content: space-between;
+  right:470px;
+  align-content: space-between;
+  top: 370px;
+  font-family: cursive;
+  color: white;
+}
+
+.btn_Guardar{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: 50px;
+  width: 200px;
+}
+
+.btn_Cancelar{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: 50px;
+  width: 200px;
+}
