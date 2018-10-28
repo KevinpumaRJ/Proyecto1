@@ -1,0 +1,101 @@
+header{
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+body{
+  background-color:  #990000;
+}
+
+.foto1{
+  float: left;
+}
+
+.btn_login{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: 50px;
+  width: 200px;
+  position: absolute;
+  justify-content: space-between;
+  left: 300px;
+}
+
+.btn_Buscar{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: 50px;
+  width: 200px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    color: white;
+}
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr {
+    background-color: #666;
+}
+
+.menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li{
+  display: inline-block;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: cursive;
+  display: block;
+  padding: 10px 100px;
+}
+
+.menu{
+  background-color: black;
+}
+
+.menu ul li a:hover{
+  background-color: #4CAF50;
+
+}
+
+p{
+  font-family: cursive;
+  color: white;
+}
+
+.contenedor{
+  position: absolute;
+  justify-content: space-between;
+  right: -20px;
+  left: 10px;
+}
